@@ -30,13 +30,13 @@ git clone https://github.com/yourusername/solis.git
 cd solis
 # Make sure you have Python and Sly installed:
 
-bash
+
 
 pip install sly
 Usage
 # Run the Solis interpreter and embark on a journey of creativity:
 
-bash
+
 
 # python solis_interpreter.py
 Enter your Solis code at the prompt (>>). For an elegant exit, press Ctrl+C.
@@ -44,7 +44,7 @@ Enter your Solis code at the prompt (>>). For an elegant exit, press Ctrl+C.
 Examples
 Unleash the potential of Solis with these captivating examples:
 
-```bash
+
 let message be "Hello, world!"
 let number be 42
 let isTrue be true
@@ -55,8 +55,8 @@ define greet(name) {
 }
 greet("Alice")
 ```
-# Documentation
-# Variables
+
+#Variables
 ## Declare your world with the let keyword:
 ```bash
 let variableName be value
