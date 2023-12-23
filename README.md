@@ -28,24 +28,23 @@ Get started with Solis by cloning the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/solis.git
 cd solis
-Make sure you have Python and Sly installed:
+# Make sure you have Python and Sly installed:
 
 bash
 
 pip install sly
 Usage
-Run the Solis interpreter and embark on a journey of creativity:
+# Run the Solis interpreter and embark on a journey of creativity:
 
 bash
 
-python solis_interpreter.py
+# python solis_interpreter.py
 Enter your Solis code at the prompt (>>). For an elegant exit, press Ctrl+C.
 
 Examples
 Unleash the potential of Solis with these captivating examples:
 
-solis
-
+```bash
 let message be "Hello, world!"
 let number be 42
 let isTrue be true
@@ -54,44 +53,44 @@ display "Hello, world!"
 define greet(name) {
   display "Hello, " combine name
 }
-
 greet("Alice")
-Documentation
-Variables
-Declare your world with the let keyword:
-
-solis
-
+```
+# Documentation
+# Variables
+## Declare your world with the let keyword:
+```bash
 let variableName be value
-Functions
-Compose symphonies of logic using the define keyword:
+```
+# Functions
+## Compose symphonies of logic using the define keyword:
 
-solis
 
+```
 define functionName(parameters) {
   # Function body
 }
-Classes
-Architect your universe with classes using the class keyword:
+```
+# Classes
+## Architect your universe with classes using the class keyword:
 
-solis
-
+```
 define class ClassName {
   # Class body
 }
-Quantum Entities
-Dive into the quantum realm with entities that defy classical intuition:
+```
+# Quantum Entities
+## Dive into the quantum realm with entities that defy classical intuition:
 
-solis
-
+```
 let qubit1 be QuantumEntity(state=0)
 let qubit2 be QuantumEntity(state=1)
 let entangledPair be QuantumEntity(entangle=[qubit1, qubit2])
-BioMolecules
-Explore the wonders of life with BioMolecules, rich in structure and interactions:
+```
+# BioMolecules
+## Explore the wonders of life with BioMolecules, rich in structure and interactions:
 
-solis
 
+```
 let hemoglobin be BioMolecule(
     type="protein",
     structure="HbA",
@@ -101,11 +100,12 @@ let hemoglobin be BioMolecule(
         {"type": "structural", "partner": "heme"}
     ]
 )
-Neural Networks
-Unravel the mysteries of artificial intelligence with imaginative neural networks:
+```
+# Neural Networks
+## Unravel the mysteries of artificial intelligence with imaginative neural networks:
 
-solis
 
+```
 let model be NeuralNetwork(
     layers=[
         {"type": "input", "units": 784},
@@ -113,16 +113,19 @@ let model be NeuralNetwork(
         {"type": "dense", "units": 10, "activation": "softmax"}
     ]
 )
-Quantum Canvases
-Paint the canvas of quantum possibilities with particles and entanglements:
+```
+# Paint the canvas of quantum possibilities with particles and entanglements:
 
 solis
-
+```
 let canvas be QuantumCanvas(size=[800, 600], background="black")
-
+```
 # Create quantum particles on the canvas
+```
 canvas.add_particle(position=[400, 300], spin="up", color="red")
 canvas.add_particle(position=[200, 400], spin="down", color="blue")
+
+```
 For an enchanting journey through Solis, delve into the Solis Language Guide.
 
 Contributing
