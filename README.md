@@ -1,4 +1,4 @@
-# Solis Programming Language
+# Solis Programming Language (Releasing Soon)
 
 Welcome to Solis, a programming language designed for the expressive and intuitive crafting of your ideas into powerful and dynamic applications. Solis combines simplicity with versatility, offering a delightful syntax and a rich set of data types for seamless development.
 
